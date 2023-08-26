@@ -40,9 +40,6 @@
   line-height: normal;
   font-size: 18px;
   color: #000;
-}
-
-.header__links-list {
   display: inline-flex;
   gap: 32px;
   list-style: circle;
@@ -203,7 +200,6 @@
   margin: auto;
   position: relative;
   z-index: 1;
-  margin: auto;
   padding: 50px 40px;
   justify-content: space-between;
   height: 100%;
