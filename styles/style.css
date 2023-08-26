@@ -40,7 +40,6 @@
   line-height: normal;
   font-size: 18px;
   color: #000;
-  line-height: 24.3px;
 }
 
 .header__links-list {
@@ -205,9 +204,9 @@
   position: relative;
   z-index: 1;
   margin: auto;
-  height: 100%;
   padding: 50px 40px;
   justify-content: space-between;
+  height: 100%;
 }
 
 .card_type_picture {
