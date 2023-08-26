@@ -216,7 +216,6 @@
   margin: auto;
   position: relative;
   z-index: 1;
-  margin: auto;
   padding: 50px 40px;
   justify-content: space-between;
 }
@@ -300,7 +299,6 @@
 }
 
 .footer {
-  padding: 0 50px 90px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
