@@ -50,30 +50,34 @@
   list-style: none;
 }
 
-.adress {
-  list-style: none;
+address {
   display: block;
   width: 240px;
   font-size: 18px;
   line-height: 24.3px;
   justify-self: end;
+  font-style: normal;
+}
+
+.adress {
+  list-style: none;
 }
 
 .cover {
-  display: flex;
+  display: flex; 
   flex-direction: column;
-  background-image: url(../../ono-tebe-nado/images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  background-size: cover;
-  margin: auto;
-  text-transform: uppercase;
-  min-width: 1100px;
-  z-index: 1;
-  position: relative;
-  padding: 165px 50px 47px;
-  gap: 135px;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: #fff; 
+  background-size: cover; 
+  margin: auto; 
+  text-transform: uppercase; 
+  min-width: 1100px; 
+  z-index: 1; 
+  position: relative; 
+  padding: 165px 50px 47px; 
+  gap: 135px; 
+  background-image: url(../images/cover.jpg);
 }
 
 .cover__title {
@@ -175,10 +179,9 @@
   flex-grow: 1;
 }
 
-.card_type_film {
+.card_type {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,36 +191,18 @@
   height: 100%;
   padding: 50px 40px;
   justify-content: space-between;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  display: flex;
-  flex-direction: column;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  position: relative;
-  z-index: 1;
-  padding: 50px 40px;
-  justify-content: space-between;
-  height: 100%;
 }
 
 .card_type_picture {
-  display: flex;
-  flex-direction: column;
   background-image: url(../images/card-lot-03.jpg);
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  position: relative;
-  z-index: 1;
-  padding: 50px 40px;
-  justify-content: space-between;
 }
 
 .card-link {
@@ -310,7 +295,7 @@
   height: 48px;
 }
 
-.footer .adress {
+.footer > address {
   justify-self: start;
 }
 
